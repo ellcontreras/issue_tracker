@@ -1,11 +1,11 @@
 development:
   dialect: "sqlite3"
-  database: /home/obsinqsob01/golang/src/issue_tracker_issue_tracker_development.sqlite
+  database: /home/obsinqsob01/golang/src/issue_tracker/issue_tracker_issue_tracker_development.sqlite
 
 test:
   dialect: "sqlite3"
-  database: /home/obsinqsob01/golang/src/issue_tracker_issue_tracker_test.sqlite
+  database: /home/obsinqsob01/golang/src/issue_tracker/issue_tracker_issue_tracker_test.sqlite
 
 production:
   dialect: "sqlite3"
-  database: /home/obsinqsob01/golang/src/issue_tracker_issue_tracker_production.sqlite
+  database: /home/obsinqsob01/golang/src/issue_tracker/issue_tracker_issue_tracker_production.sqlite
