@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
     <title>Buffalo - Issue Tracker</title>
     <%= stylesheetTag("application.css") %>
     <meta name="csrf-param" content="authenticity_token" />
@@ -10,10 +10,16 @@
     <link rel="icon" href="<%= assetPath("images/favicon.ico") %>">
   </head>
   <body>
-
+    <nav class="navbar bg-info navbar-info">
+      <a href="/" class="navbar-brand">Isscker</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="/" class="nav-link"></a>
+        </li>
+      </ul>
+    </nav>
     <div class="container">
-      <%= partial("flash.html") %>
-      <%= yield %>
+      <%= partial("flash.html") %> <%= yield %>
     </div>
 
     <%= javascriptTag("application.js") %>
