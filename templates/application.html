@@ -12,6 +12,14 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
       <a href="<%= rootPath() %>" class="navbar-brand">Issue Tracker</a>
+      <div class="navbar-nav justify-content-right">
+        <span class="nav-item"
+          ><a href="<%= issuesPath() %>" class="nav-link">All issues</a></span
+        >
+        <span class="nav-item"
+          ><a href="<%= newIssuesPath() %>" class="nav-link">New issue</a></span
+        >
+      </div>
     </nav>
     <div class="container">
       <%= partial("flash.html") %> <%= yield %>
