@@ -3,10 +3,11 @@
   <p>Where you can see issue from anywhere...</p>
 </div>
 
-<a href="<%= newIssuesPath() %>">New issue</a>
+<a href="<%= newIssuesPath() %>">New issue</a> -
+<a href="<%= issuesPath() %>">All issues</a>
 
 <hr />
 
 <%= for (book) in books { %>
-<a href="<%= issuePath({issue_id: book.ID}) %>"><%= book.Title %></a>
+<a href="<%= issuePath({issue_id: book.ID}) %>"><%= book.Title %></a><br />
 <% } %>
