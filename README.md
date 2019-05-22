@@ -1,5 +1,5 @@
 # Issue Tracker
-App to track issues as To-Do List, using [GoLang](https://golang.org) with (Buffalo Framework)[http://gobuffalo.io/]
+App to track issues as To-Do List, using [GoLang](https://golang.org) with [Buffalo Framework](http://gobuffalo.io/)
 
 ## Database Setup
 
